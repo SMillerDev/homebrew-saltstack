@@ -1,6 +1,6 @@
 cask "saltstack" do
-  version "3002.5"
-  sha256 "0196c773ee6df656d8b9fc6ce51365acc3b1897860b49342191006690d310feb"
+  version "3003"
+  sha256 "f780df6821043b3507b8705416d0d070929b9b1fb3e02e5ffae4f49d81bf0f5e"
 
   url "https://repo.saltproject.io/osx/salt-#{version}-py3-x86_64.pkg"
   name "saltstack"
