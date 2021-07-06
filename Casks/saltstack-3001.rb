@@ -1,5 +1,5 @@
-# Phase 3 upport until Dec 31, 2021
 cask "saltstack-3001" do
+  # Phase 3 support until Dec 31, 2021
   version "3001.7"
   sha256 "1f5dbdf778c755cafd9201fbd70d60dd03f5cd647d73f7b1ee198d82a101e694"
 
