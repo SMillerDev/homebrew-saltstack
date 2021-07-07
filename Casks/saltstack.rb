@@ -1,7 +1,7 @@
 cask "saltstack" do
   # Phase 3 support until Sep 30, 2022
-  version "3003"
-  sha256 "420c402baf5df71270e4068b64b2b89bc50157c141e2ac95c5a86efd9a4258f2"
+  version "3003.1"
+  sha256 "325c74c6f963f2f1682401ebf920a0a5bf30ead749a4c572c79d6a08f3261f18"
 
   url "https://repo.saltproject.io/osx/salt-#{version}-py3-x86_64.pkg"
   name "saltstack"
