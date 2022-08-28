@@ -1,9 +1,9 @@
 cask "saltstack" do
   # Phase 3 support until Sep 30, 2022
-  version "3004.2"
-  sha256 "bc2c32afadde90780ed81353e0572b1b6eb04637987c327cecaf32c37ad9639f"
+  version "3005"
+  sha256 "255eb48d18c75797712bee2286c51d3edadcb7b77b812ecb2ca329469e7b8d3a"
 
-  url "https://repo.saltproject.io/osx/salt-#{version}-py3-x86_64.pkg"
+  url "https://repo.saltproject.io/osx/salt-#{version}-1-py3-x86_64.pkg"
   name "saltstack"
   desc "Dynamic infrastructure communication bus"
   homepage "https://saltproject.io/"
