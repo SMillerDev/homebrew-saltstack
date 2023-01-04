@@ -1,5 +1,4 @@
 cask "saltstack" do
-  # Phase 3 support until Sep 30, 2022
   version "3005.1"
   sha256 "6f0a8997fb6c3e257cdc3394e4bacc97fe5b30893ef85224ed93df3cbf094ae9"
 
