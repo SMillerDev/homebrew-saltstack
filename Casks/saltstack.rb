@@ -1,19 +1,17 @@
 cask "saltstack" do
-  version "3005.1"
-  sha256 "6f0a8997fb6c3e257cdc3394e4bacc97fe5b30893ef85224ed93df3cbf094ae9"
+  version "3006.1"
+  sha256 "21b3dafd8b3e2dd8e4fe7c63dcddec8faac94b953904ffd74ac1cc8f027498a1"
 
-  url "https://repo.saltproject.io/osx/salt-#{version}-1-py3-x86_64.pkg"
+  url "https://repo.saltproject.io/salt/py3/macos/latest/salt-#{version}-py3-x86_64.pkg"
   name "saltstack"
   desc "Dynamic infrastructure communication bus"
   homepage "https://saltproject.io/"
 
   livecheck do
-    url "https://repo.saltproject.io/"
+    url "https://repo.saltproject.io/salt/py3/macos/latest/"
     strategy :page_match
-    regex(/Latest release: (\d+(?:\.\d+)*)/i)
+    regex(/salt-(\d+(?:\.\d+)*)-py3-x86_64\.pkg/i)
   end
-
-  conflicts_with cask: ["saltstack-3001", "saltstack-3000"]
 
   pkg "salt-#{version}-py3-x86_64.pkg"
 
